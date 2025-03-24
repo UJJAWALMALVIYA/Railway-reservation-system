@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RAILWAYS MANAGEMENT SYSTEM</title>
+  </head>
+  <style>
+    .box {                                                      /*for font image insertion*/
+    font-family: inherit;
+    color: inherit;
+    font-size: 20px;
+    padding:8%;
+    height:50%;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin-bottom: 1rem;
+    font-family: "Times New Roman", Times, serif;
+}
+.log{
+    background-color: red;
+}
+.form-inline my-2 my-lg-0{
+    align-items: right;
+    align-content: right;
+}
+.cont_brand{
+    text-align:right;
+    padding: 0%;
+    margin: 0%;
+    display:cont-brand ;
+}
+.cont_brandimg{
+    width: 25px 25px;
+    height: 0px 25px;
+
+}
+.button{
+    background-color:transparent;
+    border: 1px solid red;
+    font-family: inherit;
+    color: inherit;
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 70%;
+}
+.serviceBox{
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+    margin: 5px 0 0 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -5px rgba(0,0,0,0.3);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover{ background: #FB374D; }
+.serviceBox .service-icon{
+    color: #FB374D;
+    font-size: 55px;
+    line-height: 200px;
+    margin: 0 0 20px;
+
+}
+.serviceBox .title{
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .description{
+    color: #999;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 0 0 15px;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .read-more{
+    color: #FB374D;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .read-more:hover{ text-shadow: 4px 4px rgba(255,255,255,0.3); }
+.serviceBox.cyan .service-icon,
+.serviceBox.cyan .read-more{
+    color: #36ADB3;
+}
+.serviceBox.cyan:hover{ background: #36ADB3; }
+.serviceBox.blue .service-icon,
+.serviceBox.blue .read-more{
+    color: #172E5A;
+}
+.serviceBox.blue:hover{ background: #172E5A; }
+.serviceBox.orange .service-icon,
+.serviceBox.orange .read-more{
+    color: #F05D0D;
+}
+.serviceBox.orange:hover{ background: #F05D0D; }
+.serviceBox:hover .service-icon,
+.serviceBox:hover .title,
+.serviceBox:hover .read-more{
+    color: #fff;
+}
+.con{
+ display:grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr;
+ column-gap:1px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text {
+  font-size:0px;
+}
+
+
+  </style>
+  <body>
+  <a>
+
+
+      <div class="box" style=" width: 100vw;height: 100vh;background: url(vande.webp);background-size: cover;">
+        <nav class="navbar navbar-expand-lg">
+            <li class="nav active">
+              <a class="nav-link" href="index.html"><font color="white"><b>Home</b></font> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav active">
+              <a class="nav-link" href="#"><font color="white"><b>About Project</b></font> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav active">
+              <a class="nav-link" href="#"><font color="white"><b>PNR status</b></font> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav active">
+              <a class="nav-link" href="signup.html"><font color="white"><b>Register</b></font> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"><font color="white"><b>
+                  Contact Us
+                </font></b></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="india.html">=> Ministry of railways,Mumbai<br>phone:9566599956999<br>gmail:indianrailway@gmail.com</a>
+                  <a class="dropdown-item" href="india.html">=> NORTH central railways<br>phone:7877554455455<br>gmail:northrailway@gmail.com</a>
+                  <a class="dropdown-item" href="india.html">=> South railways<br>phone:9595697799<br>gmail:southrailway@gmail.com</a>
+                  <div class="dropdown-divider"></div>  
+                </div>
+            </li>
+            <li class="nav active">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="modal-box">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary btn-lg show-modal" data-toggle="modal" data-target="#myModal" style="margin-left:0%; margin-top:0%;background-color: red;">
+                                Login Form
+                              </button>
+               
+                              <!-- Modal -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content clearfix">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <h3 class="title" style="text-align: center; background-color: rgb(76, 182, 239)">Login Form</h3>
+                                                <p class="description">Login here Using Email & Password</p>
+                                                <div class="form-group">
+                                                    <span class="input-icon"><i class="fa fa-user"></i></span>
+                                                    <input type="email" class="form-control" placeholder="Enter email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="input-icon"><i class="fas fa-key"></i></span>
+                                                    <input type="password" class="form-control" placeholder="Password">
+                                                </div>
+                                                <div class="form-group checkbox">
+                                                    <input type="checkbox">
+                                                    <label>Remamber me</label>
+                                                </div>
+                                                <a href="" class="forgot-pass">Forgot Password?</a><br>
+                                                <button class="btn" style="text-align: center; background-color: rgb(51, 134, 235); margin-left:40%;">Login</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+
+        </nav>
+        <div class="2" style="font-size: 190%; font-family:Gilroy;padding-top: 10%;"><font color="white">Fast and Relible</font><br><div class="1" style="font-size: 150%; font-family:Roboto; text-align: left;"><font color="white">Railway Ticketing Services</font></div></div>
+        <button type="button" class="btn btn-primary btn-lg show-modal" style="margin:2%;background-color: red;margin-left: 10%;">Enquiry </button>
+      </div>
+<div>
+   <div<h4 style="margin:45%;margin-top:10%;font-size: 50px;">Services</h4></div>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="serviceBox">
+                <div class="service-icon" style="background-image: url(country.webp);background-size: cover;">
+                    <span><i class="fa fa-railway"></i></span>
+                </div>
+                <h3 class="title">add train</h3>
+                <p class="description">We provide reservation facility to add a train you want to travel within the country.</p>
+                <a href="addtrain.html" class="read-more" style="margin-left:35%;">Enquiry</a>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="serviceBox cyan">
+                <div class="service-icon" style="background-image: url(sleeper.webp);background-size: cover;">
+                    <span><i class="fa fa-railway"></i></span>
+                </div>
+                <h3 class="title">Add Route</h3>
+                <p class="description">here you have the facilities to add a route of a train you want to travel within the country</p>
+                <a href="addroute.html" class="read-more"style="margin-left:35%;">Enquiry</a>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="serviceBox cyan">
+                <div class="service-icon" style="background-image: url(ac.webp);background-size: cover;">
+                    <span><i class="fa fa-railway"></i></span>
+                </div>
+                <h3 class="title">view route</h3>
+                <p class="description">in this section you can view the route of a specific route of particular train.</p>
+                <a href="viewroute.html" class="read-more"style="margin-left:35%;">Enquiry</a>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="serviceBox cyan">
+                <div class="service-icon" style="background-image: url(quota.webp);background-size: cover;">
+                    <span><i class="fa fa-railway"></i></span>
+                </div>
+                <h3 class="title">view Booking</h3>
+                <p class="description">Worry not? this provide you the facilities to view boooking of particular train</p>
+                <a href="viewbooking.html" class="read-more"style="margin-left:35%;">Enquiry</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div>
+    <div<h4 style="margin:40%;margin-top:10%;font-size: 50px;">Contact Us</h4></div>
+  <div class="con" style="margin:2%;">   
+    <div class="image">
+      <img src="raail map.png">
+    </div>
+    <div class="text">
+      <h1 style="text-align:center; font-size:35px;"><img src="location.jpg" style="height: 10%;width: 10%;"> office address</h1>
+      <p style="font-size:20px; font-family:Calibri Light;margin-left: 2%;text-align: center;">prayagraj 212107</p>
+      <h1 style="text-align:center; font-size:35px;"><img src="massage.png" style="height: 10%;width: 10%;">General Enquiries</h1>
+      <p style="font-size:20px; font-family:Calibri Light;margin-left: 2%;text-align: center;">indianrailway@gmail.com</p>
+      <h1 style="text-align:center; font-size:35px;"><img src="call.png" style="height: 10%;width: 10%;">Call Us</h1>
+      <p style="font-size:20px; font-family:Calibri Light;margin-left: 2%;text-align: center;">94528348898</p>
+      <h1 style="text-align:center; font-size:35px;"><img src="time.png" style="height: 10%;width: 10%;">Our Timing</h1>
+      <p style="font-size:20px; font-family:Calibri Light;margin-left: 2%;text-align: center;">Mon-Sat:10:00AM - 5:00PM</p>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
